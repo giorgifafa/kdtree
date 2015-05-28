@@ -1,8 +1,13 @@
 #!/usr/bin/env python
 
+##Git 
+
 from setuptools import setup
 import re
 import os.path
+
+if True:
+	print("Git")
 
 dirname = os.path.dirname(os.path.abspath(__file__))
 filename = os.path.join(dirname, 'kdtree.py')
